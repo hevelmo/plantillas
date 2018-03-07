@@ -1,0 +1,346 @@
+#requirement_form_wrapper {
+    margin-top: 0;
+}
+
+.requirement_main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.requirement_main .requirement_content {
+    float: none;
+    width: 100%;
+}
+
+.requirement_main .requirement_content .requirement_elements {
+    width: 100%;
+    height: auto;
+    float: none;
+}
+
+/*
+.requirement_main .requirement_content .requirement_elements .requirement_element {
+    height: auto;
+    width: 49%
+}
+
+.requirement_main .requirement_content .requirement_elements .requirement_element .chzn-container {
+    width: 265px !important
+}
+*/
+
+.requirement_main .requirement_content .requirement_elements .requirement_element input {
+    width: 100%;
+}
+
+.requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a {
+    float: left;
+    margin-right: 1%
+}
+
+.requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b {
+    float: right;
+    margin-left: 1%
+}
+
+.requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_ab {
+    float: none;
+    height: auto;
+    width: 100%
+}
+
+.requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_ab textarea {
+    width: 94%;
+    height: 60px
+}
+
+.requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_ab .invalid_message {
+    width: 100%;
+}
+
+.requirement_main .requirement_sidebar {
+    float: right;
+    width: 370px
+}
+
+.requirement_main .requirement_sidebar .requirement_social {
+    width: 330px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    font-size: 13px
+}
+
+.requirement_main .requirement_sidebar .requirement_social p {
+    font-size: 13px
+}
+
+/*
+.requirement_main .requirement_sidebar .requirement_social p.requirement_social_title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px
+}
+
+.requirement_main .requirement_sidebar .requirement_social .social {
+    width: 200px;
+    height: 20px;
+    line-height: 27px;
+    padding: 0 0 0 35px;
+    margin: 10px 0
+}
+
+.requirement_main .requirement_sidebar .requirement_social .social a,
+.requirement_main .requirement_sidebar .requirement_social .social a:hover {
+    line-height: 27px;
+    color: #000;
+    text-decoration: none
+}
+
+.requirement_main .requirement_sidebar .requirement_social .social.fb {
+    margin-top: 30px;
+    background: url("../../images/sections/requirement/fb.png") no-repeat
+}
+
+.requirement_main .requirement_sidebar .requirement_social .social.in {
+    background: url("../../images/sections/requirement/in.png") no-repeat
+}
+
+.requirement_main .requirement_sidebar .requirement_social .social.tw {
+    background: url("../../images/sections/requirement/tw.png") no-repeat
+}
+*/
+
+@media only screen and (max-device-width: 767px) {
+    .requirement_main {
+        width: 100%;
+        margin: 0 auto
+    }
+    .requirement_main .requirement_content {
+        width: 100%;
+        float: none;
+        overflow: hidden
+    }
+    .requirement_main .requirement_content .requirement_elements {
+        width: 100%;
+        height: auto
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab {
+        width: 100%;
+        height: auto !important;
+        float: none;
+        min-height: 90px;
+        margin: 0
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element p,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a p,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b p,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab p {
+        margin: 0 0 5px 0
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element p label,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a p label,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b p label,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab p label {
+        font-weight: bold;
+        font-size: 14px
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .invalid_message,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .invalid_message,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .invalid_message,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .invalid_message {
+        margin: 10px 0 0;
+        width: 96% !important;
+        padding: 7px 2%
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element input,
+    .requirement_main .requirement_content .requirement_elements .requirement_element .icon,
+    .requirement_main .requirement_content .requirement_elements .requirement_element textarea,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a input,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .icon,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a textarea,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b input,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .icon,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b textarea,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab input,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .icon,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab textarea {
+        width: 95%;
+        min-width: 95% !important;
+        padding: 13px 2% !important
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element textarea,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a textarea,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b textarea,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab textarea {
+        margin: 0
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .enviar,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .enviar,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .enviar,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .enviar {
+        background-color: #003f87 !important;
+        width: 100% !important;
+        padding: 12px 0 !important;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        text-align: center;
+        font-weight: normal
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .chzn-container,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .chzn-container,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .chzn-container,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .chzn-container {
+        width: 100% !important
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .chzn-container .chzn-single,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .chzn-container .chzn-single,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .chzn-container .chzn-single,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .chzn-container .chzn-single {
+        padding: 10px 5px
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .chzn-container .chzn-single div,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .chzn-container .chzn-single div,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .chzn-container .chzn-single div,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .chzn-container .chzn-single div {
+        top: 9px
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .chzn-container .chzn-drop,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .chzn-container .chzn-drop,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .chzn-container .chzn-drop,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .chzn-container .chzn-drop {
+        width: 99.5% !important
+    }
+    .requirement_main .requirement_content .requirement_elements .requirement_element .chzn-container .chzn-drop .chzn-search input,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_a .chzn-container .chzn-drop .chzn-search input,
+    .requirement_main .requirement_content .requirement_elements .requirement_element.signin_col_b .chzn-container .chzn-drop .chzn-search input,
+    .requirement_main .requirement_content .requirement_elements .requirement-element.signin_col_ab .chzn-container .chzn-drop .chzn-search input {
+        min-width: 93.5% !important
+    }
+    .requirement_main .requirement_sidebar {
+        float: none;
+        width: 100%;
+        margin: 25px 0 10px
+    }
+    .requirement_main .requirement_sidebar .requirement_social {
+        width: auto;
+        display: block
+    }
+    .requirement_main .requirement_sidebar .requirement_social .requirement_social_title {
+        font-size: 18px !important;
+        font-weight: normal !important
+    }
+    .requirement_main .requirement_sidebar .requirement_social p,
+    .requirement_main .requirement_sidebar .requirement_social .social a {
+        font-size: 14px;
+        color: #333
+    }
+    #requirement_form_wrapper {
+        margin-top: 20px;
+        overflow: hidden
+    }
+}
+fieldset .invalid_message {
+    width: 245px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    background-color: #e1251b;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    top: -50px;
+    left: -310px;
+    display: none;
+}
+fieldset .invalid_message span {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-left: 10px solid #e1251b;
+    /*
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #e1251b
+    */
+}
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+    color: #999;
+}
+p.invalid_message {
+    z-index: 1;
+}
+fieldset .invalid_message {
+    width: 100%
+}
+@media only screen and (max-device-width: 767px) {
+    fieldset .invalid_message {
+        width: 95%;
+        padding: 7px 2%
+    }
+}
+.requirement {
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 170px;
+    border-radius: 5px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-box-shadow: 0px 0px 1px #ced4da;
+    box-shadow: 0px 0px 1px #ced4da;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    /*
+    */
+}
+.requirement span {
+    position: absolute;
+    top: 37%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #ced4da;
+    z-index: 9;
+}
+.requirement span:before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 1px;
+    width: 0;
+    height: 0;
+    border-bottom: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-right: 26px solid #fff;
+    z-index: 9;
+}
+.requirement_header p {
+    padding: 0 10px;
+}
+.requirement-footer div p {
+    padding: 0 15px 15px;
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+.requirement-close-panel {
+    float: right;
+}
