@@ -24,14 +24,17 @@
 
         <title>Login</title>
 
-        <link id="main" rel="stylesheet" class="link-main"  rel="stylesheet" href="../assets/css/core.css" media="screen">
+        <link id="main" rel="stylesheet" class="link-main"  rel="stylesheet" href="../estructura/css/core.css" media="screen">
         <?php /* 
-        <link id="main" rel="stylesheet" class="link-main"  rel="stylesheet" href="../assets/css/min/core.min.css">
+        <link id="main" rel="stylesheet" class="link-main"  rel="stylesheet" href="../css/min/core.min.css">
         */ ?>
     </head>
     <body>
-        
-        <script src="../assets/lib/min/core.lib.min.js"></script>
-        <script src="../assets/js/min/core.min.js"></script>
+        <?php
+            // login
+            include_once "templates/login.php";
+        ?>
+        <script src="../lib/min/core.lib.min.js"></script>
+        <script src="../js/min/core.min.js"></script>
     </body>
 </html>
