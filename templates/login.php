@@ -1,7 +1,7 @@
 <div class="requirement_main">
     <div class="requirement_content">
         <div id="requirement_form_wrapper">
-            <form class="form-signin" id="signin" action="post">
+            <form class="form-signin boton-enviar" id="signin" method="post">
                 <img src="img/user-signin.png" alt="User signin" width="72" height="72">
                 <h1 class="h3 mb-3 font-weight-normal">Por favor, inicia sesión</h1>
                 <div class="requirement_elements">
@@ -10,7 +10,7 @@
                             <label for="usuario" class="sr-only hidden">
                                 <span style="color: red;" class="fa fa-asterisk"></span> N&uacute;mero de Seguro Social
                             </label>
-                            <input type="text" name="usuario" class="form-control validate_required" id="usuario" placeholder="N&uacute;mero de Seguro Social (N.S.S)" data-validation-data="required|user">
+                            <input type="text" name="usuario" class="form-control validate_required" id="usuario" placeholder="N&uacute;mero de Seguro Social (N.S.S)" data-validation-data="required|data">
                             <p class="invalid_message" id="error_nombre">Este campo es obligatorio<span>&nbsp;</span></p>
                             <span class="requirement open-panel">
                                 <span>&nbsp;</span>
@@ -45,12 +45,13 @@
                             <label for="password" class="sr-only hidden">
                                 <span style="color: red;" class="fa fa-asterisk"></span> N&uacute;mero de Seguridad Social
                             </label>
-                            <input type="password" name="password" class="form-control validate_required" id="password" placeholder="Contraseña" data-validation-data="required|user">
+                            <input type="password" name="password" class="form-control validate_required" id="password" placeholder="Contraseña" data-validation-data="required|data">
                             <p class="invalid_message" id="error_nombre">Este campo es obligatorio<span>&nbsp;</span></p>
                         </fieldset>
                     </div>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block" id="iniciar-sesion" type="buton">Iniciar Sesión</button>
+                <input type="button" name="button" class="btn btn-lg btn-primary btn-block" value="Iniciar Sesión" id="iniciar-sesion">
+                <!--<button class="btn btn-lg btn-primary btn-block" id="iniciar-sesion" type="button">Iniciar Sesión</button>-->
                 <p class="mt-5 mb-3 text-muted">
                     No cuentas con <br> 
                     <a href="javascript:void(0)" class="active-panel"><b>Usuario</b> y <b>Contraseña</b>?</a>
