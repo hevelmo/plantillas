@@ -11,7 +11,8 @@
                                 <span style="color: red;" class="fa fa-asterisk"></span> N&uacute;mero de Seguro Social
                             </label>
                             <input type="text" name="usuario" class="form-control validate_required" id="usuario" placeholder="N&uacute;mero de Seguro Social (N.S.S)" data-validation-data="required|data">
-                            <p class="invalid_message" id="error_nombre">Este campo es obligatorio<span>&nbsp;</span></p>
+                            <p class="invalid_message" id="error_
+                            data">Este campo es obligatorio<span>&nbsp;</span></p>
                             <span class="requirement open-panel">
                                 <span>&nbsp;</span>
                                 <div class="requirement_box">
@@ -46,7 +47,7 @@
                                 <span style="color: red;" class="fa fa-asterisk"></span> N&uacute;mero de Seguridad Social
                             </label>
                             <input type="password" name="password" class="form-control validate_required" id="password" placeholder="Contraseña" data-validation-data="required|data">
-                            <p class="invalid_message" id="error_nombre">Este campo es obligatorio<span>&nbsp;</span></p>
+                            <p class="invalid_message" id="error_data">Este campo es obligatorio<span>&nbsp;</span></p>
                         </fieldset>
                     </div>
                 </div>
