@@ -1,31 +1,39 @@
 $(document).ready(function() {
+        $('.open-panel').addClass('animated fadeInRight').attr('style', 'opacity: 1; visibility: visible;');
+    /*
     $('body').on('click', '.active-panel', function(event) {
         event.preventDefault();
         $('#usuario').addClass('only');
         $('.if-is-open-panel').addClass('animated bounceOut').removeClass('bounceIn');
+        $('#password').removeAttr('data-validation-data');
+        $('#error_data_password').removeClass('invalid_message');
         $('.open-panel').addClass('animated fadeInRight').removeClass('fadeOutRight').attr('style', 'opacity: 1; visibility: visible;');
     });
     $('body').on('click', '.close-panel-box', function(event) {
         event.preventDefault();
         $('#usuario').removeClass('only');
-        $('.if-is-open-panel').removeClass('bounceOut').addClass('animated bounceIn');
+        $('.if-is-open-panel').addClass('animated bounceIn');
+        $('#password').attr('data-validation-data', 'required|data');
+        $('#error_data_password').addClass('invalid_message');
+
         $('.open-panel').removeClass('fadeInRight').addClass('animated fadeOutRight');
     });
+    */
     var $usuario = $('#usuario'), $password = $('#password');
-    $usuario.on('focusout', function () {
-        $.validate_input($usuario);
-    });
     $password.on('focusout', function () {
         $.validate_input($password);
+    });
+    $usuario.on('focusout', function () {
+        $.validate_input($usuario);
     });
     $('body').on('click', '#iniciar-sesion', function(){
         var datos=$('#signin').serialize();
         var $usuario = $('#usuario'), $password = $('#password');
-        $usuario.on('focusout', function () {
-            $.validate_input($usuario);
-        });
         $password.on('focusout', function () {
             $.validate_input($password);
+        });
+        $usuario.on('focusout', function () {
+            $.validate_input($usuario);
         });
         var $btnSend = $('.boton-enviar');
         $btnSend.removeAttr('disabled');

@@ -10,7 +10,7 @@
                             <label for="usuario" class="sr-only hidden">
                                 <span style="color: red;" class="fa fa-asterisk"></span> N&uacute;mero de Seguro Social
                             </label>
-                            <input type="text" name="usuario" class="form-control validate_required" id="usuario" placeholder="N&uacute;mero de Seguro Social (N.S.S)" data-validation-data="required|data">
+                            <input type="text" name="usuario" class="form-control validate_required only" id="usuario" placeholder="N&uacute;mero de Seguro Social (N.S.S)" data-validation-data="required|data">
                             <p class="invalid_message" id="error_
                             data">Este campo es obligatorio<span>&nbsp;</span></p>
                             <span class="requirement open-panel">
@@ -40,6 +40,7 @@
                         </fieldset>
                     </div>
                 </div>
+                <?php /*
                 <div class="requirement_elements if-is-open-panel">
                     <div class="requirement_element signin_col_ab">
                         <fieldset>
@@ -47,16 +48,19 @@
                                 <span style="color: red;" class="fa fa-asterisk"></span> N&uacute;mero de Seguridad Social
                             </label>
                             <input type="password" name="password" class="form-control validate_required" id="password" placeholder="Contraseña" data-validation-data="required|data">
-                            <p class="invalid_message" id="error_data">Este campo es obligatorio<span>&nbsp;</span></p>
+                            <p class="invalid_message" id="error_data_password">Este campo es obligatorio<span>&nbsp;</span></p>
                         </fieldset>
                     </div>
-                </div>
+                </div> 
+                */ ?>
                 <input type="button" name="button" class="btn btn-lg btn-primary btn-block" value="Iniciar Sesión" id="iniciar-sesion">
+                <?php /*
                 <!--<button class="btn btn-lg btn-primary btn-block" id="iniciar-sesion" type="button">Iniciar Sesión</button>-->
                 <p class="mt-5 mb-3 text-muted">
                     No cuentas con <br> 
                     <a href="javascript:void(0)" class="active-panel"><b>Usuario</b> y <b>Contraseña</b>?</a>
                 </p>
+                */ ?>
             </form>
         </div>
     </div>

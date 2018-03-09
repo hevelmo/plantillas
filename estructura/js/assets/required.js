@@ -1,11 +1,12 @@
 var validations_regexp = {
-    data: new RegExp( /[A-Za-z0-9_]/ )
+    data: new RegExp( "/^[0-9]+$/" )
 }
 var validation_messages = {
     general         : 'Campo no válido',
     not_config      : 'Tipo desconocido',
     required        : 'Campo requerido',
-    empty           : 'Campo vacío'
+    empty           : 'Campo vacío',
+    number          : 'Debe ingresar solo numeros'
 }
 function validate(value, rules, required, custom_message) {
     var r, null_value, ii, rule;
@@ -29,7 +30,7 @@ function validate(value, rules, required, custom_message) {
             switch ( rule ) {
                 case 'data':
                     if ( !validations_regexp.data.test( value ) ) {
-                        r.message = validation_messages.general;
+                        r.message = validation_messages.number;
                     }
                     break;
                 default:

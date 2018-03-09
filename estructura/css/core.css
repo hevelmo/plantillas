@@ -10989,7 +10989,7 @@ body {
   border-bottom-left-radius: 0; }
 
 .form-signin input[type="text"].only {
-  margin-bottom: -1px;
+  margin-bottom: 10px;
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem; }
 
@@ -11209,15 +11209,15 @@ body {
     overflow: hidden; } }
 
 fieldset .invalid_message {
-  width: 245px;
+  width: 245px !important;
   padding: 7px 10px;
   margin-top: 10px;
   background-color: #e1251b;
   color: #fff;
   font-size: 14px;
-  position: relative;
-  top: -50px;
-  left: -310px;
+  position: absolute;
+  top: 51%;
+  left: 29%;
   display: none; }
 
 fieldset .invalid_message span {
@@ -11268,14 +11268,14 @@ fieldset .invalid_message {
   -webkit-box-shadow: 0px 0px 1px #ced4da;
   box-shadow: 0px 0px 1px #ced4da;
   padding: 20px;
-  opacity: 0;
-  visibility: hidden;
   /*
+    opacity: 0;
+    visibility: hidden;
     */ }
 
 .requirement span {
   position: absolute;
-  top: 37%;
+  top: 35%;
   left: -20px;
   width: 0;
   height: 0;
