@@ -22,7 +22,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=5.0"/>
 
-        <title>Login</title>
+        <title>Estadisticas</title>
 
         <link rel="stylesheet" href="estructura/css/core.css">
         <?php /* 
@@ -32,7 +32,8 @@
     <body class="text-center">
         <?php
             // login
-            include_once "templates/login.php";
+            //include_once "templates/login.php";
+            include_once "templates/estadisticas.php";
         ?>
         <script src="lib/min/core.lib.min.js"></script>
         <script src="js/min/core.min.js"></script>
